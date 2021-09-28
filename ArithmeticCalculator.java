@@ -6,7 +6,7 @@ public class ArithmeticCalculator {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		System.out.println("1:addtion\n2:substraction\n3:multiplication\n4:division");
+		System.out.println("1:addtion\n2:subtraction\n3:multiplication\n4:division");
 		System.out.println("enter your choice to perform on calculator : ");
 		int selected_choice=sc.nextInt();
 		System.out.println("enter the inputs");
@@ -16,7 +16,7 @@ public class ArithmeticCalculator {
 		switch(selected_choice) {
 		case 1:System.out.println("addtion of "+a+"+"+b+" is "+(a+b));
 		break;
-		case 2:System.out.println("substraction of "+a+"-"+b+" is "+(a-b));
+		case 2:System.out.println("subtraction of "+a+"-"+b+" is "+(a-b));
 		break;
 		case 3:System.out.println("multiplication of "+a+"*"+b+" is "+(a*b));
 		break;
