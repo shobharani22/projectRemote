@@ -8,7 +8,7 @@ public class ArithmeticCalculator {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("1:addtion\n2:subtraction\n3:multiplication\n4:division");
 		for(int i=1;i<=5;i++) {
-			System.out.println("enter your choice to perform calculation : ");
+			System.out.println("enter your choice to perform calculation = ");
 			int selected_choice=sc.nextInt();
 			System.out.println("enter the inputs");
 			int a=sc.nextInt();
