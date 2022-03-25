@@ -23,7 +23,7 @@ public class ArithmeticCalculator {
 			case 4:System.out.println("division of "+a+"/"+b+" is "+(a/b));
 			break;
 			default:
-				System.out.println("please enter the valid choice");
+				System.out.println(" please enter the valid choice...");
 			}
 		}
 		
